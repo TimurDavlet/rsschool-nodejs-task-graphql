@@ -1,0 +1,10 @@
+mutation {
+    createPost(data: {
+        userId: "GUID"
+        title: "Amigo2",
+        content: "Doe",
+    })
+    {
+        id
+    }
+}

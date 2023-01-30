@@ -1,0 +1,23 @@
+query {
+    user (id: "GUID") {
+        firstName
+        lastName
+        email
+    }
+    post (id: "GUID") {
+        title
+        content
+    }
+    profile (id: "GUID") {
+        avatar
+        sex
+        birthday
+        country
+        street
+        city
+    }
+    memberType (id: "basic") {
+        discount
+        monthPostsLimit
+    }
+}

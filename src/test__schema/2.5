@@ -1,0 +1,22 @@
+query {
+    users {
+        id
+        firstName
+        lastName
+        profile {
+            id
+            avatar
+            sex
+            birthday
+            country
+            street
+            city
+            memberTypeId
+        }
+        userSubscribedTo {
+            id
+            firstName
+            lastName
+        }
+    }
+}

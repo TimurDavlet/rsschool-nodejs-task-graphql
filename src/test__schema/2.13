@@ -1,0 +1,15 @@
+mutation {
+    updateProfile(data: {
+        id: "GUID"
+        avatar: "new-image.png"
+        sex: "F"
+        birthday: 19
+        country: "RP"
+        street: "Kozlova"
+        city: "Minsk"
+        memberTypeId: "business"
+    })
+    {
+        id
+    }
+}

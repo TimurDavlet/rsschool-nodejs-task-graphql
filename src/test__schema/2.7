@@ -1,0 +1,37 @@
+query {
+    users {
+        id
+        firstName
+        lastName
+        userSubscribedTo {
+            id
+            firstName
+            lastName
+            userSubscribedTo {
+                id
+                firstName
+                lastName
+            }
+            subscribedToUser {
+                id
+                firstName
+                lastName
+            }
+        }
+        subscribedToUser {
+            id
+            firstName
+            lastName
+            userSubscribedTo {
+                id
+                firstName
+                lastName
+            }
+            subscribedToUser {
+                id
+                firstName
+                lastName
+            }
+        }
+    }
+}
