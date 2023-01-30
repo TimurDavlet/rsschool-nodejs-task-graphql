@@ -1,0 +1,16 @@
+query {
+    user (id: "GUID") {
+        firstName
+        lastName
+        email
+        posts {
+            id
+            title
+        }
+        subscribedToUser {
+            id
+            firstName
+            lastName
+        }
+    }
+}

@@ -1,0 +1,11 @@
+mutation {
+    updateUser(data: {
+        id: "GUID"
+        firstName: "Marry"
+        lastName: "Chilo"
+        email: "max-pane@example.com"
+    })
+    {
+        id
+    }
+}

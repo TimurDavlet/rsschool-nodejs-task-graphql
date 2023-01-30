@@ -1,0 +1,26 @@
+query {
+    users {
+        id
+        firstName
+        lastName
+        email
+        profile {
+            id
+            avatar
+            sex
+            birthday
+            country
+            street
+            city
+        }
+        posts {
+            id
+            title
+        }
+        memberType {
+            id
+            discount
+            monthPostsLimit
+        }
+    }
+}

@@ -1,0 +1,10 @@
+mutation {
+    updatePost(data: {
+        id: "GUID"
+        title: "Amigo2",
+        content: "Doe",
+    })
+    {
+        id
+    }
+}

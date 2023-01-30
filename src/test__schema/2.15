@@ -1,0 +1,9 @@
+mutation {
+    updateMemberType(data: {
+        profileId: "GUID"
+        memberTypeId: "business"
+    })
+    {
+        id
+    }
+}
